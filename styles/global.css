@@ -33,6 +33,9 @@
   --text-color-secondary: #A1A1AA;
   --brand-color-primary: #F7B733;
   --brand-color-secondary: #FC4A1A;  
+
+  /* Padding inline no mobile. */
+  --px-lg: 1.5rem;
 }
 
 html {
@@ -71,6 +74,7 @@ a {
   color: inherit;
 }
 
+/* role="list" é para manter acessibilidade no html. */
 ul[role="list"] {
   list-style: none;
 }
@@ -80,5 +84,7 @@ ul[role="list"] {
     --fs-lg: 2rem;
     --fs-xl: 3rem;
     --fs-2xl: 4rem;
+
+    --px-lg: 2rem;
   }
 }
