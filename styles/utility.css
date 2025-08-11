@@ -1,7 +1,17 @@
-/*
-PY = Padding Y (block)
-PX = Padding X (inline)
-*/
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-1 {
+  gap: 1rem;
+}
+
+/*PY = Padding Y (block)
+  PX = Padding X (inline)*/
 .py-base {
   padding-block: var(--py-base);
 }
@@ -17,7 +27,6 @@ PX = Padding X (inline)
 .px-lg {
   padding-inline: var(--px-lg);
 }
-
 
 .container {
   --max-width: 375px;
