@@ -1,3 +1,7 @@
+/*
+PY = Padding Y (block)
+PX = Padding X (inline)
+*/
 .py-base {
   padding-block: var(--py-base);
 }
@@ -14,13 +18,19 @@
   padding-inline: var(--px-lg);
 }
 
-.desktop-only {
-  display: none;
-}
 
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
+}
+
+.desktop-only {
+  display: none;
+}
+
+.even-columns {
+  display: grid;
+  gap: 1rem;
 }
 
 @media (width >= 80em) {
@@ -30,5 +40,10 @@
 
   .desktop-only {
     display: initial;
+  }
+
+  .even-columns {
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
   }
 }
