@@ -25,9 +25,29 @@
   );
 }
 
-.btn-secondary { 
-  color: var(--btn-bg-color);
-  background-color: var(--btn-color);
+.btn[aria-label] {
+  position: relative;
+
+  &::before {
+    position: absolute;
+    inset: 1px;
+
+    content: "";
+    background-color: var(--bg-color);
+    border-radius: inherit;
+  }
+
+  &::after {
+    position: relative;
+    z-index: 1;
+
+    content: attr(aria-label);
+    background: var(--btn-bg-color);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 }
 
 .btn-sm {
