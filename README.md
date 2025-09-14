@@ -1,8 +1,8 @@
 # 📰 Projeto: Zingen - Karaokê
 
-![Visual do projeto TECH NEWS](assets/preview-zingen.png)
+![Visual do projeto Zingen - Karaokê](assets/preview-zingen.png)
 
-Este é um projeto de uma página web responsiva desenvolvida com **HTML5** e **CSS3**, com o objetivo de simular um aplicativo de karaokê inspirado no spotify. O projeto foi criado para exercitar boas práticas de **design responsivo**, **estrutura semântica** e **layout em Grid/Flexbox**.
+Este é um projeto de uma página web responsiva desenvolvida com **HTML5** e **CSS3**, que tem como objetivo simular um aplicativo de karaokê inspirado no Spotify. Ele foi criado para praticar boas práticas de **design responsivo**, **estrutura semântica** e **layout em Grid/Flexbox**.
 
 ## 🔗 Acesse o projeto online
 Você pode visualizar o site publicado via GitHub Pages clicando no link abaixo:
@@ -14,10 +14,10 @@ Este projeto foi desenvolvido com fins educacionais, como parte da minha prátic
 A proposta é simular a interface de um aplicativo de karaokê inspirado no Spotify, explorando conceitos de usabilidade e boas práticas de código e design.
 
 ## ✨ Funcionalidades
-- Estrutura HTML semântica com seções bem organizadas
-- Layout responsivo para desktop e celular
-- Aplicação de **Flexbox e Grid**
-- Estilo moderno com variáveis CSS e efeitos visuais avançados
+- Desenvolvimento com a metodologia **Mobile First**  
+- Estrutura HTML semântica com seções bem organizadas  
+- Layout utilizando **Flexbox e Grid**  
+- Estilo moderno com **variáveis CSS** e efeitos visuais avançados  
 
 ## 🛠️ Tecnologias utilizadas
 - HTML5
@@ -26,7 +26,7 @@ A proposta é simular a interface de um aplicativo de karaokê inspirado no Spot
 - GitHub Pages para deploy
 
 ## 📁 Estrutura básica do projeto
-projeto-portal-de-noticias/
+projeto-zingen/
 
 ├── index.html # Estrutura da página
 
@@ -62,7 +62,7 @@ projeto-portal-de-noticias/
 
 
 
-##🚀 Como rodar localmente
+## 🚀 Como rodar localmente
 
 1. Clone o repositório:
 2. git clone https://github.com/llorenzojorge/projeto-zingen.git
