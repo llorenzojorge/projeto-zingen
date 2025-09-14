@@ -2,7 +2,7 @@
 
 ![Visual do projeto TECH NEWS](assets/preview-zingen.png)
 
-Este é um projeto de uma página web responsiva desenvolvida com **HTML5** e **CSS3**, com o objetivo de simular um aplicativo de karaokê inspirado no spotify. O projeto foi criado para exercitar boas práticas de **design responsivo**, **estrutura semântica ** e **layout em Grid/Flexbox**.
+Este é um projeto de uma página web responsiva desenvolvida com **HTML5** e **CSS3**, com o objetivo de simular um aplicativo de karaokê inspirado no spotify. O projeto foi criado para exercitar boas práticas de **design responsivo**, **estrutura semântica** e **layout em Grid/Flexbox**.
 
 ## 🔗 Acesse o projeto online
 Você pode visualizar o site publicado via GitHub Pages clicando no link abaixo:
