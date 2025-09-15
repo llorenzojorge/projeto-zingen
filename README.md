@@ -1,4 +1,4 @@
-# 📰 Projeto: Zingen - Karaokê
+# 🎙️ Projeto: Zingen - Karaokê
 
 ![Visual do projeto Zingen - Karaokê](assets/preview-zingen.png)
 
